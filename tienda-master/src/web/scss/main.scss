@@ -1,0 +1,36 @@
+@import "01_utilities/functions", "01_utilities/mixins",
+	"01_utilities/variables";
+
+@import "02_base/override", "02_base/reset";
+
+@import "03_layout/l-grid", "03_layout/l-flex";
+@import "04_components/c-button", "04_components/c-icon",
+	"04_components/c-carrito", "04_components/c-pagar", "04_components/c-login",
+	"04_components/c-footer", "04_components/c-header", "04_components/c-nav",
+	"04_components/c-hero", "04_components/c-about", "04_components/c-testimonio",
+	"04_components/c-producto", "04_components/c-detalle", "04_components/c-pago",
+	"04_components/c-historialCarrito";
+
+@import "06_global/g--clear-list", "06_global/_g--padding",
+	"06_global/g--seccion-productos-title";
+
+body {
+	// min-width: 100vh;
+	min-height: 100vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+html {
+	scroll-behavior: smooth;
+}
+
+#contenedor {
+	min-height: 100vh;
+}
+
+#app {
+	width: 100%;
+	min-height: 100%;
+}
